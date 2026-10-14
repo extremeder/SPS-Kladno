@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 x = "5"
 y = "50"
 string = "SOučEt ČíseL x = {} a Y = {} Je {}"
@@ -8,3 +9,10 @@ string = "SOučEt ČíseL x = {} a Y = {} Je {}"
 for i in range (1, 100, 2):
     print(i)
 >>>>>>> 6bd5728 (zmena)
+=======
+jmeno = input("Jak se jmenujes?, ")
+jidlo = input("Jake je tve oblibene jidlo?, ")
+
+print("Ahoj", jmeno + "!")
+print("Tve oblibene jidlo je", jidlo)
+>>>>>>> c15b52e (14.10.2026)
