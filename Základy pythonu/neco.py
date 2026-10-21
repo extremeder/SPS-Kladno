@@ -1,9 +1,8 @@
-hui = int(input("Kolik mas?"))
-if hui >= 20:
-    print("Zaebis")
-if hui<=19:
-    print("Norm")
-elif hui <= 14:
-    print("Malo")
+zarizeni = input("Co mas rad? ")
+if zarizeni == "pocitac":
+    print("To je nice ze mas rad pc")
+if zarizeni == "mobil":
+    print("To je nice ze mas rad mobil")
+
 else:
-    print("Cringe")
+    print("Jdi do pici")
