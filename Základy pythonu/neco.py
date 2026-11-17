@@ -1,8 +1,4 @@
-zarizeni = input("Co mas rad? ")
-if zarizeni == "pocitac":
-    print("To je nice ze mas rad pc")
-if zarizeni == "mobil":
-    print("To je nice ze mas rad mobil")
+vek = int(input("Zadej svuj vek: "))
+ridicak = input("Mas ridicak? ")
 
-else:
-    print("Jdi do pici")
+if ridicak and
