@@ -1,8 +1,4 @@
-text = input("Napis Ahoj svete: ")
+vek = int(input("Zadej svuj vek: "))
+ridicak = input("Mas ridicak? ")
 
-print(text.upper())
-print(text.lower())
-print(text[0])
-print(text[-1])
-print(text[::-1])
-print(len(text))
+if ridicak and
