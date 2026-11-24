@@ -1,10 +1,6 @@
-vek = int(input("Zadej svuj vek: "))
+x = int(input("Zadejte cislo 1: "))
+y = int(input("Zadejte cislo 2: "))
 
-if vek >= 18 and vek <= 99:
-    print("jsi dospely")
-elif vek >= 15 and vek <= 17:
-    print("jsi dospivajici")
-elif vek >= 0 and vek <= 14:
-    print("jsi dite")
-else:
-    print("neplatny vek")
+soucin = x * y
+vystup = f"soucet cisel x = {x} a y = {y} je {soucin}".lower()
+print(vystup)
