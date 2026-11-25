@@ -1,6 +1,6 @@
-x = int(input("Zadejte cislo 1: "))
-y = int(input("Zadejte cislo 2: "))
+cislo1 = int(input("Zadejte prvni cislo: "))
+cislo2 = int(input("Zadejte druhe cislo: "))
 
-soucin = x * y
-vystup = f"soucet cisel x = {x} a y = {y} je {soucin}".lower()
-print(vystup)
+print("Soucet", cislo1, "a", cislo2, "je", cislo1 + cislo2)
+print("Rozdil", cislo1, "a", cislo2, "je", cislo1 - cislo2)
+print("Soucin", cislo1, "a", cislo2, "je", cislo1 * cislo2)
